@@ -1,0 +1,7 @@
+
+thumbor:
+    mem_limit: 400m
+    restart: always
+    image: campusparty/thumbor-docker
+    ports:
+        - "8880:8880"
